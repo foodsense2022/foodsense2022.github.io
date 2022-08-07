@@ -1,0 +1,63 @@
+.logo_recommend {
+    width: 150px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    z-index: -1;
+}
+
+.notLoggedInCaption {
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(67,200,92);
+}
+
+.recommendation {
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    position: relative;
+    z-index: -4;
+}
+
+.recommendationCaption {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(67,200,92);
+}
+
+.recommendationList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+
+    .recommendationCaption {
+        font-size: 24px;
+    }
+
+    .recommendation {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

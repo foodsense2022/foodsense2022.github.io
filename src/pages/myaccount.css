@@ -1,0 +1,52 @@
+.logo_myaccount {
+    width: 150px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    z-index: -4;
+}
+
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    position: relative;
+    
+    top: -20px;
+
+}
+
+.dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    position: relative;
+
+}
+
+.dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(67,200,92);
+}
+
+.dashboard__text {
+    font-size: 18px;
+}
+
+.dashboard div {
+    margin-top: 7px;
+}

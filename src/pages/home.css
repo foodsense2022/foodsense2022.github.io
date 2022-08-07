@@ -1,0 +1,308 @@
+.welcome {
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.welcome-image {
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+.welcome-heading {
+    color: rgb(67,200,92);
+    font-size: 90px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.welcome-body {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.introduction {
+    padding-top: 500px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.introduction-heading {
+    color: rgb(67,200,92);
+    font-size: 70px;
+    padding-bottom: 25px;
+    
+}
+
+.image-left {
+    position: relative;
+    right: 225px;
+    top: 40px;
+    width: 100px;
+    z-index: -4;
+}
+
+.image-right {
+    position: relative;
+    left: 225px;
+    top: 45px;
+    width: 100px;
+    z-index: -4;
+}
+
+.green {
+    display: inline-block;
+    color: rgb(67,200,92);
+    font-size: 45px;
+}
+
+.introduction-body {
+    font-size: 35px;
+}
+
+.introduction-body-three {
+    padding-bottom:50px;
+}
+
+.search {
+    padding-top: 500px;
+    text-align: center;
+}
+
+.search-heading {
+    color: rgb(67,200,92);
+    font-size: 70px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.search-body {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.search-image {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.search-link {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nearme {
+    padding-top: 500px;
+    text-align: center;
+}
+
+.nearme-heading {
+    color: rgb(67,200,92);
+    font-size: 70px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nearme-body {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.nearme-image {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.nearme-link {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.recommend {
+    padding-top: 500px;
+    text-align: center;
+}
+
+.recommend-heading {
+    color: rgb(67,200,92);
+    font-size: 70px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.recommend-body {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.recommend-image {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+.recommend-link {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.account {
+    padding-top: 500px;
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.account-heading {
+    color: rgb(67,200,92);
+    font-size: 70px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.account-body {
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom:50px;
+}
+
+@media screen and (max-width: 540px) {
+
+    .welcome {
+        padding-top: 325px;
+    }
+
+    .welcome-image {
+        width: 60%;
+    }
+    
+    .welcome-heading {
+        font-size: 24px;
+    }
+    
+    .welcome-body {
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .introduction {
+        padding-top: 500px;
+    }
+    
+    .introduction-heading {
+        font-size: 24px;
+    }
+    
+    .image-left {
+        position: relative;
+        left: -100px;
+        top: 0px;
+        width: 20px;
+    }
+    
+    .image-right {
+        position: relative;
+        left: 100px;
+        top: 0px;
+        width: 20px;
+    }
+    
+    .green {
+        font-size: 22px;
+    }
+    
+    .introduction-body {
+        font-size: 20px;
+    }
+    
+    .introduction-body-three {
+        padding-bottom: 25px;
+    }
+
+    .search {
+        padding-top: 500px;
+    }
+    
+    .search-heading {
+        font-size: 24px;
+    }
+    
+    .search-body {
+        font-size: 20px;
+    }
+    
+    .search-link {
+        font-size: 20px;
+    }
+    
+    .nearme {
+        padding-top: 500px;
+    }
+    
+    .nearme-heading {
+        font-size: 24px;
+    }
+    
+    .nearme-body {
+        font-size: 20px;
+    }
+    
+    .nearme-link {
+        font-size: 20px;
+    }
+
+    .recommend {
+        padding-top: 500px;
+    }
+    
+    .recommend-heading {
+        font-size: 25px;
+    }
+    
+    .recommend-body {
+        font-size: 20px;
+    }
+    
+   
+    .recommend-link {
+        font-size: 20px;
+    }
+    
+    .account {
+        padding-top: 500px;
+        padding-bottom: 250px;
+    }
+    
+    .account-heading {
+        font-size: 25px;
+    }
+    
+    .account-body {
+        font-size: 20px;
+    }
+    
+}

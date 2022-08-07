@@ -1,0 +1,239 @@
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.configuration {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterDiv {
+  padding-top: 50px;
+}
+
+#category-list {
+  padding: 5px;
+}
+
+#radiusSlider {
+  padding-left: 10ch;
+  width: 50%;
+}
+
+.nearmeTitle {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(67,200,92);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nearmeSubTitle {
+  padding-top: 25px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.filterButton {
+  border: 1px solid white;
+  background: white;
+  top: 5px;
+  width: 30px;
+  height: 34px;
+  position: relative;
+  left: 10px
+}
+
+.filterButtonImg {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  left: -4px; 
+}
+
+.MAP {
+  padding-top: 45px;
+}
+
+.max {
+  position: relative;
+  left: 90px;
+}
+
+.restaurantRating {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+
+  .nearmeTitle {
+    font-size: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .configuration {
+    padding-top: 125px;
+  }
+
+  .nearmeSubTitle {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .configuration {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #category-list {
+    padding: 5px;
+    width: 80%;
+  }
+
+  #radiusSlider {
+    width: 15%;
+  }
+
+  .filterButton {
+    background: none;
+    border: none;
+  }
+}
+
+/*
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.configuration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterDiv {
+  padding-top: 50px;
+}
+
+#category-list {
+  padding: 5px;
+}
+
+#radiusSlider {
+  padding-left: 10ch;
+  width: 50%;
+}
+
+.nearmeTitle {
+  padding-top: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(67,200,92);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nearmeSubTitle {
+  padding-top: 25px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.filterButton {
+  border: 1px solid white;
+  background: white;
+  top: 5px;
+  width: 30px;
+  height: 34px;
+  position: relative;
+  left: 10px
+}
+
+.filterButtonImg {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  left: -4px; 
+}
+
+.MAP {
+  padding-top: 45px;
+}
+
+.max {
+  position: relative;
+  left: 90px;
+}
+
+.restaurantRating {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+
+  .nearmeTitle {
+    font-size: 24px;
+    padding-top: 125px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .nearmeSubTitle {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .configuration {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #category-list {
+    padding: 5px;
+    width: 80%;
+  }
+
+  #radiusSlider {
+    width: 15%;
+  }
+}
+*/
