@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10e282f2.css",
+    "main.js": "/static/js/main.d1413a70.js",
+    "static/js/787.6812b53e.chunk.js": "/static/js/787.6812b53e.chunk.js",
+    "static/media/nearme.png": "/static/media/nearme.f1259dccbfcfef2dea60.png",
+    "static/media/searchrestaurant.png": "/static/media/searchrestaurant.4ee48b391fe469b211f3.png",
+    "static/media/myrecommendations.png": "/static/media/myrecommendations.c29a5e9f66c06c5ea094.png",
+    "static/media/introduction-left.png": "/static/media/introduction-left.017588b70ed8241288bd.png",
+    "static/media/introduction-right.png": "/static/media/introduction-right.cbfc489535553be7433d.png",
+    "static/media/foodsenselogo4.png": "/static/media/foodsenselogo4.00bbbf7c4420bf6e7db3.png",
+    "static/media/foodsenselogo2.png": "/static/media/foodsenselogo2.c35f7ca79e6ceac5912f.png",
+    "static/media/foodsenselogo1.png": "/static/media/foodsenselogo1.ab08bdbe90316cd45b74.png",
+    "static/media/foodsenselogo3.png": "/static/media/foodsenselogo3.5474ae4e6a61c4554398.png",
+    "static/media/marker.svg": "/static/media/marker.b0c8f45defb6e2c8893b773ca88b9d91.svg",
+    "index.html": "/index.html",
+    "main.10e282f2.css.map": "/static/css/main.10e282f2.css.map",
+    "main.d1413a70.js.map": "/static/js/main.d1413a70.js.map",
+    "787.6812b53e.chunk.js.map": "/static/js/787.6812b53e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e282f2.css",
+    "static/js/main.d1413a70.js"
+  ]
+}
