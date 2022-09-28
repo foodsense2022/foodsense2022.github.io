@@ -246,7 +246,8 @@ export default function Restaurant() {
                 }
                 </div>
                 <div className="numShown">
-                    <Button onClick={() => setMaxRestaurantShown(maxRestaurantShown + 30)} className="readmore">Show More</Button>
+                    <Button onClick={() => setMaxRestaurantShown(maxRestaurantShown + 30)} className="readmore"  
+                        style={{paddingLeft: "47%"}}>Show More</Button>
                 </div>
 
             </div>

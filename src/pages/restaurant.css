@@ -22,7 +22,7 @@
 }
 
 .filterButton {
-    border: 1px solid black;
+    border: 0px solid black;
     top: -5px;
     width: 30px;
     height: 34px;
@@ -35,7 +35,7 @@
     width: 25px;
     position: relative;
     left: -4px;
-    top: -10px;  
+    top: 0px;  
 }
 
 .filter-container {
