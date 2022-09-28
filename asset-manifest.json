@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2768bfbd.css",
+    "main.css": "/static/css/main.cb59992a.css",
     "main.js": "/static/js/main.57802377.js",
     "static/js/787.6812b53e.chunk.js": "/static/js/787.6812b53e.chunk.js",
     "static/media/nearme.png": "/static/media/nearme.f1259dccbfcfef2dea60.png",
@@ -14,12 +14,12 @@
     "static/media/foodsenselogo3.png": "/static/media/foodsenselogo3.5474ae4e6a61c4554398.png",
     "static/media/marker.svg": "/static/media/marker.8fc000d4551c53f2290258e2293bd474.svg",
     "index.html": "/index.html",
-    "main.2768bfbd.css.map": "/static/css/main.2768bfbd.css.map",
+    "main.cb59992a.css.map": "/static/css/main.cb59992a.css.map",
     "main.57802377.js.map": "/static/js/main.57802377.js.map",
     "787.6812b53e.chunk.js.map": "/static/js/787.6812b53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2768bfbd.css",
+    "static/css/main.cb59992a.css",
     "static/js/main.57802377.js"
   ]
 }
