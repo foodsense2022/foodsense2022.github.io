@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.10e282f2.css",
-    "main.js": "/static/js/main.d1413a70.js",
+    "main.css": "/static/css/main.2768bfbd.css",
+    "main.js": "/static/js/main.57802377.js",
     "static/js/787.6812b53e.chunk.js": "/static/js/787.6812b53e.chunk.js",
     "static/media/nearme.png": "/static/media/nearme.f1259dccbfcfef2dea60.png",
     "static/media/searchrestaurant.png": "/static/media/searchrestaurant.4ee48b391fe469b211f3.png",
@@ -12,14 +12,14 @@
     "static/media/foodsenselogo2.png": "/static/media/foodsenselogo2.c35f7ca79e6ceac5912f.png",
     "static/media/foodsenselogo1.png": "/static/media/foodsenselogo1.ab08bdbe90316cd45b74.png",
     "static/media/foodsenselogo3.png": "/static/media/foodsenselogo3.5474ae4e6a61c4554398.png",
-    "static/media/marker.svg": "/static/media/marker.b0c8f45defb6e2c8893b773ca88b9d91.svg",
+    "static/media/marker.svg": "/static/media/marker.8fc000d4551c53f2290258e2293bd474.svg",
     "index.html": "/index.html",
-    "main.10e282f2.css.map": "/static/css/main.10e282f2.css.map",
-    "main.d1413a70.js.map": "/static/js/main.d1413a70.js.map",
+    "main.2768bfbd.css.map": "/static/css/main.2768bfbd.css.map",
+    "main.57802377.js.map": "/static/js/main.57802377.js.map",
     "787.6812b53e.chunk.js.map": "/static/js/787.6812b53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e282f2.css",
-    "static/js/main.d1413a70.js"
+    "static/css/main.2768bfbd.css",
+    "static/js/main.57802377.js"
   ]
 }
