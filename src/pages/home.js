@@ -1,5 +1,6 @@
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useRef, useState } from 'react';
 import { NavbarHome, NavigationBar } from "../components/Navbar.js";
 import { Link } from 'react-router-dom';
 import left from "../icons/introduction-left.png";
@@ -12,6 +13,30 @@ import sr from "../icons/searchrestaurant.png";
 import nearme from "../icons/nearme.png";
 import recommend from "../icons/myrecommendations.png";
 
+function FadeIn({ text }) {
+        const textRef = useRef(null);
+        const [isVisible, setIsVisible] = useState(false);
+      
+        useEffect(() => {
+          const observer = new IntersectionObserver(([entry]) => {
+            if (entry.isIntersecting) {
+              setIsVisible(true);
+              observer.unobserve(entry.target);
+            }
+          });
+      
+          observer.observe(textRef.current);
+      
+          return () => {
+            observer.unobserve(textRef.current);
+          };
+        }, []);
+      
+        const className = isVisible ? 'fade-in' : '';
+      
+        return <div ref={textRef} className={className}>{text}</div>;
+    }
+
 function Home() {
     return (
         <div className="home">
@@ -19,12 +44,12 @@ function Home() {
             <div className="home-content">
                 <div className="welcome">
                     <img className="welcome-image" src={logo4} />
-                    <h1 className="welcome-heading">Welcome to FoodSense!</h1>
-                    <h2 className="welcome-body">Where We Sense the Best Restaurant in Singapore</h2>
+                    <h1 className="welcome-heading"><FadeIn text="Welcome to FoodSense!" /></h1>
+                    <h2 className="welcome-body"><FadeIn text="Where We Sense the Best Restaurant in Singapore" /></h2>
                 </div>
                 <div className="introduction">
                     <img src={left} className="image-left"/><img src={right} className="image-right"/>
-                    <h1 className="introduction-heading">Our Algorithm...</h1>
+                    <h1 className="introduction-heading"><FadeIn text="Our Algorithm..." /></h1>
                     <h2 className="introduction-body">
                         <p className="introduction-body-one">We analyzed over <div className="green">1,000</div> restaurants,</p>
                         <p className="introduction-body-two">across more than <div className="green">2,000</div> locations in Singapore,</p>
@@ -34,25 +59,25 @@ function Home() {
                     </h2>
                 </div>
                 <div className="search">
-                    <h1 className="search-heading">Don't Believe Us?</h1>
-                    <h2 className="search-body"> Why Not Give It a Try? </h2>
+                    <h1 className="search-heading"><FadeIn text="Don't Believe Us?" /></h1>
+                    <h2 className="search-body"><FadeIn text=" Why Not Give It a Try? " /></h2>
                     <img className="search-image" src={sr}/>
                     <p className="search-link"><Link to='/restaurant/'>Search a Trending Restaurant Right Now!</Link></p>
                 </div>
                 <div className="nearme">
-                    <h1 className="nearme-heading">Personalized Search!</h1>
-                    <h2 className="nearme-body">Use Our Near Me to Find a Trending Restaurant in Your Area! </h2>
+                    <h1 className="nearme-heading"><FadeIn text="Personalized Search!" /></h1>
+                    <h2 className="nearme-body"><FadeIn text="Use Our Near Me to Find a Trending Restaurant in Your Area! " /></h2>
                     <img className="nearme-image" src={nearme}/>
                     <p className="nearme-link"><Link to='/nearme/'>Use Near Me Right Now!</Link></p>
                 </div>
                 <div className="recommend">
-                    <h1 className="recommend-heading">Your Own Recommendations!</h1>
-                    <h2 className="recommend-body">We Curated Restaurant Recommendations Specially For You!</h2>
+                    <h1 className="recommend-heading"><FadeIn text="Your Own Recommendations!" /></h1>
+                    <h2 className="recommend-body"><FadeIn text="We Curated Restaurant Recommendations Specially For You!" /></h2>
                     <img className="recommend-image" src={recommend}/>
                     <p className="recommend-link"><Link to='/recommend/'>Go To My Recommendations Right Now!</Link></p>
                 </div>
                 <div className="account">
-                    <h1 className="account-heading">Help Us :)</h1>
+                    <h1 className="account-heading"><FadeIn text="Help Us :)" /></h1>
                     <h2 className="account-body"><Link to='/login/' className="account-link">Log In</Link> or <Link to='/signup/'>Sign Up</Link> to Support Our Website!</h2>
                 </div>
             </div>
